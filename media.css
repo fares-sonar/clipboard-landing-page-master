@@ -1,0 +1,53 @@
+@media(max-width:991px){
+
+    .header h1{
+        font-size: 1.8rem !important;
+    }
+    a{
+        display: block!important;
+    }
+    .computer .image_text {
+        justify-content: center;
+    }
+    .computer .image_text img{
+        width: 30rem !important;
+    }
+    .tablet img{
+        max-width: 30rem!important;
+    }
+
+    .company{
+        gap: 2rem;
+    }
+
+}
+
+@media(max-width:768px){
+    .header .button {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .company,
+    footer,
+    footer ul{
+        flex-direction: column!important;
+        text-align: center;
+    }
+}
+
+@media(max-width:450px){
+    .computer .image_text img{
+        width: 15rem !important;
+    }
+    .tablet img{
+        max-width: 15rem!important;
+    }
+
+    .tablet .info_title,
+    .supercharge .b_box .box,
+    .clipboard{
+        width: 100%!important;
+    }
+}
